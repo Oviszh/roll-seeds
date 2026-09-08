@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Local configuration (not part of the repo)
+.claude/
+.workbuddy/
+.mcp.json
+*.local
+.DS_Store
+
+# Legacy design reference (deprecated)
+design.png
+
+# Deploy artifacts (regenerate from roll-seeds.html)
+dist/

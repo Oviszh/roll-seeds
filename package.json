@@ -1,0 +1,13 @@
+{
+  "name": "roll-seeds",
+  "version": "1.0.0",
+  "description": "Offline BIP39 mnemonic generator from dice/coin flips (single-file HTML, 10 languages, live preview)",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "test": "node test.js && node e2e.js"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.1"
+  }
+}
